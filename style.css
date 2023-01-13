@@ -4,9 +4,22 @@
     text-align: center;
 }
 
-.list {
+.container {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
     color: black;
     background-color: #ffd300;
+    display: flex;
+    /* height: 500px; */
+}
+
+.kid {
+    border-style: solid;
+    text-align: center;
+    flex: 1;
+}
+
+.images {
+    width: 100px;
+    height: auto;
 }
